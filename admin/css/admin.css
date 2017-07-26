@@ -1,0 +1,66 @@
+/* Plugin link in the admin area */
+#adminmenu .wp-submenu-head, #adminmenu a.toplevel_page_gi_csv .dashicons-before:before {
+	content: '';
+	background: url('../../icon.png') center center no-repeat;
+	background-size: 18px auto;
+}
+
+/* Invalid state for the SKU field in backend individual product page */
+.gi_invalid_field_message {
+	color: #ec1b2d;
+}
+
+.woocommerce_options_panel p._sku_field.gi_invalid_field {
+	background-color: #ec1b2d;
+}
+
+.woocommerce_options_panel p._sku_field.gi_invalid_field label {
+	color: #fff;
+}
+
+.woocommerce_options_panel p._sku_field.gi_invalid_field input {
+	border-color: #fff;
+}
+
+/* Admin page */
+
+.gi_csv .gi-admin-section {
+	position: relative;
+	height: 200px;
+	background: url('../img/top-banner.jpg') top left no-repeat;
+	background-size: auto 100%;
+	padding: 20px;
+}
+
+.gi_csv .gi-admin-section {
+	margin-bottom: 20px;
+}
+
+.gi_csv header .subtitle,
+.gi_csv header .subtitle a {
+	color: #fff;
+}
+
+.gi_csv header .subtitle {
+	position: absolute;
+	top: 115px;
+	left: 0;
+}
+
+.gi_csv header #gi-button-csv {
+	position: absolute;
+	bottom: 20px;
+}
+
+.gi_csv .gi-text {
+	padding: 6px 20px 25px;
+}
+
+.gi_csv #gi-input-text {
+	display: none;
+	width: 100%;
+}
+
+.gi_csv #gi-input-text.active {
+	display: block;
+}
